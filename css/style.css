@@ -1,0 +1,81 @@
+:root{
+    --primary-color: #345B63;
+    --secondary-color: white;
+    --color: rgb(209, 235, 243);
+}
+
+body{
+    background-color: var(--color);
+}
+
+.main-container {
+  width: 400px;
+  margin: 5rem auto;
+  text-align: center;
+}
+
+main p{
+    font-weight: bolder;
+    color: var(--primary-color);
+    text-transform: capitalize;
+}
+
+header h2{
+    letter-spacing: .1rem;
+    color: var(--primary-color);
+    
+}
+
+main{
+    width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label{
+  font-weight: bold;
+  font-size: 1.2rem;  
+  
+}
+
+input{
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    width: 250px;
+    padding: .8rem .2rem;
+}
+label, button{
+    margin: 1rem 0; 
+}
+
+button{
+    border: 2px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: 1rem;
+    border-radius: 10px;
+    width: 5rem;
+    padding: .5rem 1rem;
+    cursor: pointer;
+}
+
+.img-display{
+    height: 5rem;
+}
+
+footer p{
+    font-weight: bold;
+}
+
+footer {
+  padding-bottom: 1rem;
+}
+
+
+footer .icons i {
+  font-size: 1.4rem;
+  color: var(--primary-color);
+  padding: 0 0.4rem;
+}
