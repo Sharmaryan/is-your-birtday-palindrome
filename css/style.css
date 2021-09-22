@@ -1,78 +1,104 @@
-:root{
-    --primary-color: #345B63;
-    --secondary-color: white;
-    --color: rgb(209, 235, 243);
+:root {
+  --primary-color: #0b57e2;
+  --secondary-color: white;
+  --color: rgb(165, 247, 165);
 }
 
-body{
-    background-color: var(--color);
+body {
+  background-color: var(--primary-color);
 }
 
 .main-container {
+  background-color: var(--color);
   width: 400px;
   margin: 5rem auto;
   text-align: center;
-}
-
-main p{
-    font-weight: bolder;
-    color: var(--primary-color);
-    text-transform: capitalize;
-}
-
-header h2{
-    letter-spacing: .1rem;
-    color: var(--primary-color);
-    
-}
-
-main{
-    width: 300px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-label{
-  font-weight: bold;
-  font-size: 1.2rem;  
   
 }
-
-input{
-    border: 2px solid var(--primary-color);
-    border-radius: 10px;
-    width: 250px;
-    padding: .8rem .2rem;
+main{
+  padding-top: 2rem;
 }
-label, button{
-    margin: 1rem 0; 
+main p {
+  font-weight: bolder;
+  color: var(--primary-color);
+  text-transform: capitalize;
 }
 
-button{
-    border: 2px solid var(--primary-color);
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    font-size: 1rem;
-    border-radius: 10px;
-    width: 5rem;
-    padding: .5rem 1rem;
-    cursor: pointer;
+header h2 {
+  letter-spacing: 0.1rem;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  padding:1.4rem 0;
 }
 
-.img-display{
-    height: 5rem;
+#date-formats, #example-date{
+  font-weight: bold;
+  margin: auto;
+}
+#date-formats{
+  background-color: var(--color);
+  letter-spacing: 1px;
+  padding: 1.2rem;
+}
+#example-date{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: var(--primary-color);
+   background-color: var(--secondary-color);
+   padding: 1rem;
 }
 
-footer p{
-    font-weight: bold;
+main {
+  width: 300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+input {
+  border: 2px solid var(--primary-color);
+  border-radius: 10px;
+  width: 250px;
+  padding: 0.8rem 0.2rem;
+}
+label,
+button {
+  margin: 1rem 0;
+}
+
+button {
+  border: 2px solid var(--primary-color);
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  font-size: 1rem;
+  border-radius: 10px;
+  width: 5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.img-display {
+  height: 5rem;
+}
+
+footer{
+  background-color: var(--secondary-color);
+  padding-top: 2rem;
+}
+
+footer p {
+  font-weight: bold;
+  color: var(--primary-color);
 }
 
 footer {
   padding-bottom: 1rem;
 }
-
 
 footer .icons i {
   font-size: 1.4rem;
